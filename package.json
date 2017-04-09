@@ -1,0 +1,15 @@
+{
+  "name": "cs-cpp-gen",
+  "main": "./lib/cs-cpp-gen",
+  "version": "0.0.1",
+  "description": "Package for generating C++ file templates with ease",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/cs-cpp-gen",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

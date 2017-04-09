@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle cs-cpp-gen",
+        "command": "cs-cpp-gen:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "cs-cpp-gen",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "cs-cpp-gen:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+'.source.cpp':
+    'Class Skeleton':
+        'prefix': 'cl'
+        'body': """
+        class ${1:name} {
+        public:
+            ${1:name}();
+            ~${1:name}();
+
+        private:
+            $2
+        };
+        """
+
+'.source.cpp':
+    'Function Header Comment':
+        'prefix': 'fhc'
+        'body': """
+        /**
+         * @brief ${1:Short Description}
+         * @param ${2:Parameter}
+         * @return ${3:Return_value}
+         * @Note ${4:None}
+         */
+        ${5:Return_Value} ${6:Function_Name}(${7}) {
+            ${8:Function_Body}
+        }
+        """
